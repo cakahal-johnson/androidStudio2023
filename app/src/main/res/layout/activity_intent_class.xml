@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IntentClass"
+    android:background="#000"
+    android:orientation="vertical"
+    >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome To Android Class"
+            android:textSize="25sp"
+            android:layout_margin="40dp"
+            android:textColor="@color/cakahal"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Here is the Intent content"
+            android:padding="5dp"/>
+
+        <Button
+            android:id="@+id/btnWeb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Here is the web content"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"/>
+
+        <Button
+            android:id="@+id/btn_dail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Here is the dail content"
+            android:layout_margin="20dp"
+            android:padding="5dp"/>
+
+        <Button
+            android:id="@+id/btn_sms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Here is the sms content"
+            android:padding="5dp"/>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
